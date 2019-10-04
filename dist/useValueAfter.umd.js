@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports,require("react")):"function"==typeof define&&define.amd?define(["exports","react"],t):t(e.useValueAfter={},e.react)}(this,function(e,t){e.useValueAfter=function(e,n,r){void 0===e&&(e=[]),void 0===n&&(n=1e3),void 0===r&&(r=0);var u=t.useState(r),o=u[0],f=u[1];return t.useEffect(function(){var t=setTimeout(function(){f((o+1)%e.length)},n);return function(){return clearInterval(t)}},[o]),e[o]}});
+//# sourceMappingURL=useValueAfter.umd.js.map
