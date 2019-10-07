@@ -1,6 +1,6 @@
 {
   "name": "use-value-after",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "react hook to use values from an array after delay",
   "source": "src/useValueAfter.ts",
   "types": "dist/useValueAfter.d.ts",
