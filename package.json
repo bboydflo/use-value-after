@@ -9,7 +9,7 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "publish": "./node_modules/.bin/np"
+    "pub": "./node_modules/.bin/np"
   },
   "author": "Florin Cosmin Onciu",
   "license": "MIT",
