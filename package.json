@@ -8,14 +8,16 @@
   "unpkg": "dist/useValueAfter.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "publish": "./node_modules/.bin/np"
   },
   "author": "Florin Cosmin Onciu",
   "license": "MIT",
   "private": false,
   "devDependencies": {
     "@types/react": "16.9.5",
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.11.0",
+    "np": "^5.1.0"
   },
   "peerDependencies": {
     "react": ">=16.8"
