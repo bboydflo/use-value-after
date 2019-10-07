@@ -1,6 +1,6 @@
 {
   "name": "use-value-after",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "react hook to use values from an array after delay",
   "source": "src/useValueAfter.ts",
   "types": "dist/useValueAfter.d.ts",
@@ -8,8 +8,7 @@
   "unpkg": "dist/useValueAfter.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch",
-    "pub": "./node_modules/.bin/np"
+    "dev": "microbundle watch"
   },
   "author": "Florin Cosmin Onciu",
   "license": "MIT",
